@@ -9,15 +9,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class BeanController {
 
-    @Autowired  //@Inject yerine spring bootta @Autowired vardır.
-                //BeanConfig yapısını çağırmak için kullanılır.
+    @Autowired  //@Inject yerine spring bootta @Autowired vardır.   //BeanConfig yapısını çağırmak için kullanılır.
     BeanConfig beanConfig;
 
-    //http://localhost:8080/bean/beanDto
-    @GetMapping("/bean/beanDto")    //url
+    @GetMapping("/bean/beanDto")    //url   //http://localhost:8080/bean/beanDto
     @ResponseBody                     //html olmadan direk ekranda göster
     public String getBeanDto(){
 
         return beanConfig.beanDto()+".";     //Stringe cast etmek için +"" eklendi
     }
+
 }
