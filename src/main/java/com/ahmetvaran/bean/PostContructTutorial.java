@@ -9,8 +9,8 @@ import java.util.logging.Logger;
 
 @Controller
 public class PostContructTutorial {
-    @Autowired
-    Logger LOG;
+ //   @Autowired
+ //   Logger LOG;
 
     //parametresiz constructor
    /* public BeanController() {
@@ -18,12 +18,12 @@ public class PostContructTutorial {
     } */
     //bean henüz başlamadığından null alıyoruz ve burada bağımlılığı enjekte edemiyoruz
     //Görevi: Bir bean nesnesi oluşturulduğunda hemen oluşur.
-    @PostConstruct
-    public void init(){
-        LOG.info("Log info çağrıldı");
-    }
-    public static void main(String[] args) {
-        PostContructTutorial postContructTutorial = new PostContructTutorial();
-        System.out.println(postContructTutorial);
-    }
+   //// @PostConstruct
+   //// public void init(){
+   ////     LOG.info("Log info çağrıldı");
+   //// }
+   //// public static void main(String[] args) {
+   ////     PostContructTutorial postContructTutorial = new PostContructTutorial();
+   ////     System.out.println(postContructTutorial);
+   //// }
 }
