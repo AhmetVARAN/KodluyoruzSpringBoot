@@ -78,7 +78,7 @@ public class ThymeleafController {
         return "thymeleaf6";
     }
     ////////////////////////////////////////////////////////////////////////////////////
-    //Model object göndermek
+    //@PathVariable
     //http://localhost:8080/thymeleaf7/
     @GetMapping({"/thymeleaf7","/thymeleaf7/{id}"})
     public String getThymeleaf7ModelObject(Model model, @PathVariable(name="id",required = false) Long id){
