@@ -1,4 +1,4 @@
-package com.ahmetvaran.dto;
+package com.ahmetvaran.business.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

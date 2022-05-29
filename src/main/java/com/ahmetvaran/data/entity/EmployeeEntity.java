@@ -1,6 +1,5 @@
-package com.ahmetvaran.entity;
+package com.ahmetvaran.data.entity;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;

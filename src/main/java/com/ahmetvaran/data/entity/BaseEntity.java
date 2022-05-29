@@ -1,4 +1,4 @@
-package com.ahmetvaran.entity;
+package com.ahmetvaran.data.entity;
 
 import lombok.Getter;
 import lombok.Setter;
